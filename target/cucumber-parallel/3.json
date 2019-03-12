@@ -1,0 +1,79 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Search for a product",
+        "description": "",
+        "id": "search;search-for-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 218063903,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.vedant2.selenium.traning.pages.HeaderPage.getCurrentUrl(HeaderPage.java:28)\r\n\tat com.vedant2.selenium.traning.step_def.SearchSteps.i_am_on_homepage(SearchSteps.java:18)\r\n\tat ✽.Given I am on homepage(C:/Users/nares/IdeaProjects/arg-pagf-filter-grid-bdd-framwork/src/test/resources/search.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "SearchSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I search for a product \"nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nike",
+                  "offset": 24
+                }
+              ],
+              "location": "SearchSteps.i_search_for_a_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I should be able to see respective results",
+            "match": {
+              "location": "SearchSteps.i_should_be_able_to_see_respective_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@smoke"
+          },
+          {
+            "line": 7,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "As an end user\r\nI want to search for product\r\nSo that i can view results",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "C:/Users/nares/IdeaProjects/arg-pagf-filter-grid-bdd-framwork/src/test/resources/search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@search"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Parallel03IT
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 0.899 sec <<< FAILURE! - in Parallel03IT
+Given I am on homepage(Scenario: Search for a product)  Time elapsed: 0.007 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: Search for a product  Time elapsed: 0.007 sec  <<< ERROR!
+java.lang.NullPointerException
+

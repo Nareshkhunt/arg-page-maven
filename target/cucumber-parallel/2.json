@@ -1,0 +1,194 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Filter By Rating",
+        "description": "",
+        "id": "filter;filter-by-rating",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 177754769,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.vedant2.selenium.traning.pages.HeaderPage.getCurrentUrl(HeaderPage.java:28)\r\n\tat com.vedant2.selenium.traning.step_def.SearchSteps.i_am_on_homepage(SearchSteps.java:18)\r\n\tat ✽.Given I am on homepage(C:/Users/nares/IdeaProjects/arg-pagf-filter-grid-bdd-framwork/src/test/resources/filterBy.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "SearchSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I search for a product \"nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nike",
+                  "offset": 24
+                }
+              ],
+              "location": "SearchSteps.i_search_for_a_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I apply filter \"4or more\" on search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4or more",
+                  "offset": 16
+                }
+              ],
+              "location": "FilterSteps.iApplyFilterOnSearchResult(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I should see all products \"review\" are filtered \"4.0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "review",
+                  "offset": 27
+                },
+                {
+                  "val": "4.0",
+                  "offset": 49
+                }
+              ],
+              "location": "FilterSteps.iShouldSeeAllProductsAreFiltered(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@regression"
+          },
+          {
+            "line": 7,
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Filter by Price range",
+        "description": "",
+        "id": "filter;filter-by-price-range",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 882345,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.vedant2.selenium.traning.pages.HeaderPage.getCurrentUrl(HeaderPage.java:28)\r\n\tat com.vedant2.selenium.traning.step_def.SearchSteps.i_am_on_homepage(SearchSteps.java:18)\r\n\tat ✽.Given I am on homepage(C:/Users/nares/IdeaProjects/arg-pagf-filter-grid-bdd-framwork/src/test/resources/filterBy.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "I am on homepage",
+            "match": {
+              "location": "SearchSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I search for a product \"nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nike",
+                  "offset": 24
+                }
+              ],
+              "location": "SearchSteps.i_search_for_a_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I apply filter \"£10 - £15\" on search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£10 - £15",
+                  "offset": 16
+                }
+              ],
+              "location": "FilterSteps.iApplyFilterOnSearchResult(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I should see all products \"range\" are filtered \"10-15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "range",
+                  "offset": 27
+                },
+                {
+                  "val": "10-15",
+                  "offset": 48
+                }
+              ],
+              "location": "FilterSteps.iShouldSeeAllProductsAreFiltered(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@regression"
+          },
+          {
+            "line": 14,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Filter",
+    "description": "As an end user\r\nI want to apply filter on the results\r\nSo that i can view results of my filter choice",
+    "id": "filter",
+    "keyword": "Feature",
+    "uri": "C:/Users/nares/IdeaProjects/arg-pagf-filter-grid-bdd-framwork/src/test/resources/filterBy.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@filterby"
+      }
+    ]
+  }
+]

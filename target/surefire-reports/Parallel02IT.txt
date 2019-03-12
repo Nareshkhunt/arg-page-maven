@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Parallel02IT
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 4, Skipped: 6, Time elapsed: 0.867 sec <<< FAILURE! - in Parallel02IT
+Given I am on homepage(Scenario: Filter By Rating)  Time elapsed: 0.021 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: Filter By Rating  Time elapsed: 0.021 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Given I am on homepage(Scenario: Filter by Price range)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: Filter by Price range  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.NullPointerException
+
